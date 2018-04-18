@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  display: flex;
+  flex-direction: row;
+}
+.logo{
+  height: 70px;
+  width: 70px;
+}
+.test-img{
+  width: 81em;
+  height: 25em;
+}
+.featured-work-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.featured-text{
+  color: #7d97ad;
+  display: flex;
+  justify-content: center;
+}
+.featured-work{
+  margin: 1em;
+}
+.break{
+  color: #7d97ad;
+}
+.locals{
+  width: 350px;
+  height: 150px;
+}
